@@ -1,0 +1,58 @@
+[
+    {
+        "tamal": [
+            {
+                "id": "t1",
+                "flavor": "Verde",
+                "image": "https://i.imgur.com/3AyHYPu.png"
+            },
+            {
+                "id": "t2",
+                "flavor": "Mole",
+                "image": "https://i.imgur.com/oN0t4nw.png"
+            },
+            {
+                "id": "t3",
+                "flavor": "Guayaba",
+                "image": "https://i.imgur.com/GMvWkzv.png"
+            },
+            {
+                "id": "t4",
+                "flavor": "Piña",
+                "image": "https://i.imgur.com/CEn2bpp.png"
+            },
+            {
+                "id": "t5",
+                "flavor": "Pasas",
+                "image": "https://i.imgur.com/J45fALf.png"
+            },
+            {
+                "id": "t6",
+                "flavor": "Rajas",
+                "image": "https://i.imgur.com/V09ndnD.png"
+            }
+        ],
+        "bebida": [
+            {
+                "id": "b1",
+                "flavor": "Champurrado",
+                "image": "https://i.imgur.com/8Ozi2d7.png"
+            },
+            {
+                "id": "b2",
+                "flavor": "Arroz con Leche",
+                "image": "https://i.imgur.com/9sLEWS5.png"
+            },
+            {
+                "id": "b3",
+                "flavor": "Chocolate",
+                "image": "https://i.imgur.com/uzW5HRg.png"
+            },
+            {
+                "id": "b4",
+                "flavor": "Cafe",
+                "image": "https://i.imgur.com/zFdj5zd.png"
+            }
+        ]
+    }
+]

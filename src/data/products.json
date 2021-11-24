@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "Green Tamal Guajolota",
+        "price": 25,
+        "category": "Guajolotas",
+        "shortName": "Green",
+        "flavorType": "Tamale",
+        "flavor": "Green",
+        "image": "https://i.imgur.com/d6pZWfx.png",
+        "quantity": 1
+        },
+        {
+        "id": 2,
+        "name": "Mole Tamal Guajolota",
+        "price": 25,
+        "category": "Guajolotas",
+        "shortName": "Mole",
+        "flavorType": "Tamale",
+        "flavor": "Mole",
+        "image": "https://i.imgur.com/tyguOVl.png",
+        "quantity": 1
+        },
+        {
+        "id": 3,
+        "name": "Guava Tamal Guajolota",
+        "price": 25,
+        "category": "Guajolotas",
+        "shortName": "Guava",
+        "flavorType": "Tamale",
+        "flavor": "Guava",
+        "image": "https://i.imgur.com/KUmNnBE.png",
+        "quantity": 1
+        },
+        {
+        "id": 4,
+        "name": "Pineapple Tamal Guajolota",
+        "price": 25,
+        "category": "Guajolotas",
+        "shortName": "Pineapple",
+        "flavorType": "Tamale",
+        "flavor": "Pineapple",
+        "image": "https://i.imgur.com/LvqTDsV.png",
+        "quantity": 1
+        },
+        {
+        "id": 5,
+        "name": "Raisin Tamal Guajolota",
+        "price": 25,
+        "category": "Guajolotas",
+        "shortName": "Raisin",
+        "flavorType": "Tamale",
+        "flavor": "Raisin",
+        "image": "https://i.imgur.com/AWbJ84D.png",
+        "quantity": 1
+        },
+        {
+        "id": 6,
+        "name": "Champurrado",
+        "price": 12,
+        "category": "Drinks",
+        "shortName": "Champurrado",
+        "flavorType": "Drink",
+        "flavor": "Champurrado",
+        "image": "https://i.imgur.com/ponHz9P.png",
+        "quantity": 1
+        },
+        {
+        "id": 7,
+        "name": "Rice with Milk Atole",
+        "price": 12,
+        "category": "Drinks",
+        "shortName": "Rice Atole",
+        "flavorType": "Drink",
+        "flavor": "Rice Atole",
+        "image": "https://i.imgur.com/agIVB1f.png",
+        "quantity": 1
+        },
+        {
+        "id": 8,
+        "name": "Hot Chocolate",
+        "price": 12,
+        "category": "Drinks",
+        "shortName": "Chocolate",
+        "flavorType": "Drink",
+        "flavor": "Chocolate",
+        "image": "https://i.imgur.com/mPDvTzX.png",
+        "quantity": 1
+        },
+        {
+        "id": 9,
+        "name": "Black coffee",
+        "price": 12,
+        "category": "Drinks",
+        "shortName": "Black coffee",
+        "flavorType": "Drink",
+        "flavor": "Coffee",
+        "image": "https://i.imgur.com/VCZLFyC.png",
+        "quantity": 1
+        },
+        {
+        "id": 10,
+        "name": "Green Tamale",
+        "price": 14,
+        "category": "Tamales",
+        "shortName": "Green Tamale",
+        "flavorType": "Tamale",
+        "flavor": "Green",
+        "image": "https://i.imgur.com/DXF7NXF.png",
+        "quantity": 1
+        },
+        {
+        "id": 11,
+        "name": "Mole Tamale",
+        "price": 14,
+        "category": "Tamales",
+        "shortName": "Mole Tamale",
+        "flavorType": "Tamale",
+        "flavor": "Mole",
+        "image": "https://i.imgur.com/w0PGV4A.png",
+        "quantity": 1
+        },
+        {
+        "id": 12,
+        "name": "Guava Tamale",
+        "price": 14,
+        "category": "Tamales",
+        "shortName": "Guava Tamale",
+        "flavorType": "Tamale",
+        "flavor": "Guava",
+        "image": "https://i.imgur.com/vAW014x.png",
+        "quantity": 1
+        },
+        {
+        "id": 13,
+        "name": "Pineapple Tamale",
+        "price": 14,
+        "category": "Tamales",
+        "shortName": "Pineapple Tamale",
+        "flavorType": "Tamale",
+        "flavor": "Pineapple",
+        "image": "https://i.imgur.com/7ll741z.png",
+        "quantity": 1
+        },
+        {
+        "id": 14,
+        "name": "Raisin Tamale",
+        "price": 14,
+        "category": "Tamales",
+        "shortName": "Raisin Tamale",
+        "flavorType": "Tamale",
+        "flavor": "Raisins",
+        "image": "https://i.imgur.com/mCO47N7.png",
+        "quantity": 1
+        }
+]
