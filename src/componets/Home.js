@@ -26,6 +26,7 @@ export const Home = () => {
 
     return (
         <>
+        //la embarre y lo desplegue en github Pages
            <MainPage >
                <Header />
               <HeaderPage>
