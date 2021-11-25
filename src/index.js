@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import { AppRouter } from './routers/AppRouter';
 
 
 
+
 ReactDOM.render(
-  <React.StrictMode>
-    <AppRouter />
-  </React.StrictMode>,
+  
+    <AppRouter />,
+  
   document.getElementById('root')
 );
 

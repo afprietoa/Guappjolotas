@@ -15,7 +15,7 @@ export const Home = () => {
         getProducts()
         .then((arts) => {
             setProducts(arts)
-
+            // eslint-disable-next-line
             const guajolota = arts.filter(art => art.category == 'Guajolotas')
             setCategories(guajolota)
         })
@@ -26,7 +26,7 @@ export const Home = () => {
 
     return (
         <>
-        //la embarre y lo desplegue en github Pages
+      
            <MainPage >
                <Header />
               <HeaderPage>

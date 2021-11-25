@@ -3,6 +3,7 @@ import { ButtonCategory } from '../styles/CategoriesStyles'
 
 export const NavCategory = ({products, setCategories}) => {
     const handleCategory = (e) =>{
+        
         const category = products.filter(
             (art) => art.category === e. target.innerText
         )
