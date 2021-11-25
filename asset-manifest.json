@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/Guappjolotas/static/css/main.7176885d.chunk.css",
-    "main.js": "/Guappjolotas/static/js/main.172fcd90.chunk.js",
-    "main.js.map": "/Guappjolotas/static/js/main.172fcd90.chunk.js.map",
+    "main.js": "/Guappjolotas/static/js/main.6d36cabb.chunk.js",
+    "main.js.map": "/Guappjolotas/static/js/main.6d36cabb.chunk.js.map",
     "runtime-main.js": "/Guappjolotas/static/js/runtime-main.36082ac9.js",
     "runtime-main.js.map": "/Guappjolotas/static/js/runtime-main.36082ac9.js.map",
-    "static/js/2.53c83d4b.chunk.js": "/Guappjolotas/static/js/2.53c83d4b.chunk.js",
-    "static/js/2.53c83d4b.chunk.js.map": "/Guappjolotas/static/js/2.53c83d4b.chunk.js.map",
+    "static/js/2.e3f833cc.chunk.js": "/Guappjolotas/static/js/2.e3f833cc.chunk.js",
+    "static/js/2.e3f833cc.chunk.js.map": "/Guappjolotas/static/js/2.e3f833cc.chunk.js.map",
     "index.html": "/Guappjolotas/index.html",
-    "static/css/main.7176885d.chunk.css.map": "/Guappjolotas/static/css/main.7176885d.chunk.css.map",
-    "static/js/2.53c83d4b.chunk.js.LICENSE.txt": "/Guappjolotas/static/js/2.53c83d4b.chunk.js.LICENSE.txt"
+    "static/js/2.e3f833cc.chunk.js.LICENSE.txt": "/Guappjolotas/static/js/2.e3f833cc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.36082ac9.js",
-    "static/js/2.53c83d4b.chunk.js",
-    "static/css/main.7176885d.chunk.css",
-    "static/js/main.172fcd90.chunk.js"
+    "static/js/2.e3f833cc.chunk.js",
+    "static/js/main.6d36cabb.chunk.js"
   ]
 }
