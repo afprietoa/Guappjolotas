@@ -35,8 +35,7 @@ export const Details = () => {
 
     const [flavors, setFlavors] = useState(null)
 
-    const [data1, setData1] = useState([]) 
-    const [data2, setData2] = useState([])
+
 
     const {id} = useParams();
     const [product, setProduct] = useState([])
@@ -77,8 +76,7 @@ export const Details = () => {
 
     }, [])
 
-    console.log(data1)
-    console.log(data2)
+
 
     const flavorType = () => {
         if(product.flavorType && flavors){
