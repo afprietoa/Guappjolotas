@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { getProducts } from '../helpers/getProducts'
 import { NavCategory } from '../hooks/NavCategory'
-import SearchProduct from '../hooks/SearchProduct'
+import {SearchProduct} from '../hooks/SearchProduct'
 
 import { Card, ContainerMain, DetailsLink, H2Price, H2Text, HeaderPage, ImgCard, MainPage, TextCard } from '../styles/HomeStyles'
-import { Header } from './Header'
+
 
 export const Home = () => {
 
@@ -23,12 +23,14 @@ export const Home = () => {
     useEffect(() => {
         updateProducts()
     }, [])
+    console.log(categories)
+    console.log(typeof(categories))
 
     return (
         <>
       
            <MainPage >
-               <Header />
+              
               <HeaderPage>
                   Nothing like a Guajolota to start the day. 
               </HeaderPage>

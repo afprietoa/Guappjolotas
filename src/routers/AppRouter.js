@@ -1,8 +1,11 @@
 import React from 'react'
 import {BrowserRouter as Router, 
     Routes,
-    Route} 
+    Route,
+    Navigate} 
     from 'react-router-dom';
+import { Cart } from '../componets/Cart';
+import { Details } from '../componets/Details';
 import { Home } from '../componets/Home';
 import { Navbar } from '../componets/Navbar';
 
@@ -14,7 +17,11 @@ export const AppRouter = () => {
             <Router>
             <Navbar />
                 <Routes>
-                    <Route exact path="/" element={<Home />}/>
+                    <Route exact path="/home" element={<Home />}/>
+                    <Route exact path="/details/:id" element={<Details />}/>
+                    <Route exact path="/cart" element={<Cart />}/>
+                    <Route exact path="/*" element={<Navigate to="/home" />}/>
+                    <Route exact path="/Guappjolotas" element={<Navigate to="/home" />}/>
                 </Routes>
             </Router>
         </>

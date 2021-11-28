@@ -65,6 +65,7 @@ const HeaderPage = styled.p`
     margin:20px 0px 25px 1px;
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 `
 const Form = styled.form`
     display:flex;

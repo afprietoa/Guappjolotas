@@ -1,19 +1,17 @@
-import React from 'react'
-import { useState } from 'react/cjs/react.development'
+import React, { useState } from 'react'
 import { Form, FormInput } from '../styles/HomeStyles'
 
-const SearchProduct = ({products}) => {
+export const SearchProduct = ({products}) => {
     const [textSearch, setTextSearch] = useState("")
-    const [search, setSearch] = useState("")
-    const handleSearch = () =>{
-        setSearch(textSearch)
-    }
+ 
+
     const lookUp = products.filter(art =>(
-        art.name.toLowerCase().includes(search.toLowerCase())
+        art.name.toLowerCase() === textSearch.toLowerCase()
     ))
+    console.log(textSearch)
     console.log(lookUp)
     return (
-        <Form onSubmit={(e)=>{e.preventDefault(); handleSearch()}}>
+        <Form onSubmit={(e)=>{e.preventDefault()}}>
             <FormInput 
             id="search"
             type="search"
@@ -28,4 +26,4 @@ const SearchProduct = ({products}) => {
         </Form>
     )
 }
-export default React.memo(SearchProduct)
+ 
