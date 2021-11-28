@@ -51,26 +51,24 @@ export const Details = () => {
     const { checkedProduct, handleCheckOn, handleCheckOff } = ComboCheck()
     const [products, setProducts] = useState(null)
 
-
-    const update = () =>{
-        getProducts()
-        .then((products) =>{
-            setProducts(products)
-        })
-        getFlavors()
-        .then((data1) =>{
-            const arr =  data1.map((art,i) =>(art))
-            setFlavors(arr[0])
-        })
-        getProductId(id)
-        .then((data2) =>{
-            setProduct(data2)
-        })
-    };
-
     useEffect(() => {
+        const update = () =>{
+            getProducts()
+            .then((products) =>{
+                setProducts(products)
+            })
+            getFlavors()
+            .then((data1) =>{
+                const arr =  data1.map((art,i) =>(art))
+                setFlavors(arr[0])
+            })
+            getProductId(id)
+            .then((data2) =>{
+                setProduct(data2)
+            })
+        };
         update();
-    }, [update])
+    }, [])
 
 
 
