@@ -9,8 +9,8 @@ export const ComboCheck = () => {
                 art
         ])
     }
-    const handleCheckOff = (art)=> {
-        const checkOff = checkedProduct.filter(art => art !== art)
+    const handleCheckOff = (article)=> {
+        const checkOff = checkedProduct.filter(art => art !== article)
         setCheckedProduct(checkOff)
     }
     return {
