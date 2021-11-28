@@ -13,6 +13,7 @@ const ImgCart = styled.img`
     margin: auto;
 `
 const NameCart = styled.h4`
+    
     color: black;
 `
 const PriceCart = styled.h4`

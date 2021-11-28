@@ -47,7 +47,8 @@ const ImgCard = styled.div`
     background-size: 100% 100%;
 `
 const TextCard = styled.div`
-    width: 184px;
+    padding-left:15px;
+    width: 50%;
     height: 46px;
     top: 33px;
     left: 112px
@@ -56,10 +57,12 @@ const H2Text = styled.h3`
     background-color: transparent;
     color: #484747;
     margin-top: 8px;  
+    text-align: left;
 `
 const H2Price = styled.h3`
     background: transparent;
     color: #fa4acf;
+    text-align: left;
 `
 const HeaderPage = styled.p`
     margin:20px 0px 25px 1px;
