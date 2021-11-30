@@ -1,5 +1,5 @@
 import React from 'react'
-import {HashRouter as Router, 
+import {BrowserRouter as Router, 
     Routes,
     Route,
     Navigate} 
