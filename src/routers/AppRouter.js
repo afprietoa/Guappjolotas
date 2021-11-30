@@ -17,11 +17,11 @@ export const AppRouter = () => {
             <Router>
             <Navbar />
                 <Routes>
-                    <Route path="/home" element={<Home />}/>
-                    <Route path="/details/:id" element={<Details />}/>
-                    <Route path="/cart" element={<Cart />}/>
-                    <Route exact path="/*" element={<Navigate to="/home" />}/>
-                    <Route exact path="/Guappjolotas" element={<Navigate to="/home" />}/>
+                    <Route path="home" element={<Home />}/>
+                    <Route path="details/:id" element={<Details />}/>
+                    <Route path="cart" element={<Cart />}/>
+                    <Route exact path="*" element={<Navigate to="home" />}/>
+                    <Route exact path="Guappjolotas" element={<Navigate to="home" />}/>
                 </Routes>
             </Router>
         </>
