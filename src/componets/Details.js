@@ -68,7 +68,7 @@ export const Details = () => {
             })
         };
         update();
-    }, [])
+    }, [id])
 
 
 
