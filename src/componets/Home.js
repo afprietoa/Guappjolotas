@@ -39,7 +39,7 @@ export const Home = () => {
                 <ContainerMain>
                     {
                        categories.map((art) =>(
-                        <DetailsLink to={`/details/${art.id}`} key={art.id}>
+                        <DetailsLink to={`details/${art.id}`} key={art.id}>
                         <Card>
                             <ImgCard style={{backgroundImage: `url(${art.image})`}}/>
                             <TextCard>
