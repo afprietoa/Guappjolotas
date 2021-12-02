@@ -24,11 +24,11 @@ const DetailsLink = styled(Link)`
     text-decoration: none;
 `
 
-const Card = styled.div`
+const Cards = styled.div`
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 810px;
+    width: 500px;
     height: 110px;
     padding: 20px;
     margin: 20px 20px 10px 20px;
@@ -39,16 +39,17 @@ const Card = styled.div`
     background-color: #e7e7e7;
 `
 
-const ImgCard = styled.div`
-    width: 85px;
-    height: 65px;
+const ImgCards = styled.div`
+    width: 65px;
+    height: 75px;
     display: flex;
     align-self: flex-start;
+    
     background-size: 100% 100%;
 `
-const TextCard = styled.div`
-    padding-left:15px;
-    width: 50%;
+const TextCards = styled.div`
+    padding-left:20px;
+    width: 80%;
     height: 46px;
     top: 33px;
     left: 112px
@@ -57,18 +58,26 @@ const H2Text = styled.h3`
     background-color: transparent;
     color: #484747;
     margin-top: 8px;  
+    font-size: 21px;
     text-align: left;
 `
 const H2Price = styled.h3`
     background: transparent;
-    color: #fa4acf;
+    color: #FA4A0C;
     text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
 `
 const HeaderPage = styled.p`
-    margin:20px 0px 25px 1px;
-    font-size: 20px;
-    font-weight: 700;
-    font-family: 'Roboto', sans-serif;
+    margin:32px auto;
+    font-size: 44px;
+    line-height:50px;
+    text-align:center;
+    text-shadow: 2px 2px 2px #ddd;
+    font-weight: 428;
+    font-family: 'Inter', sans-serif;
 `
 const Form = styled.form`
     display:flex;
@@ -93,9 +102,9 @@ export {
     MainPage,
     ContainerMain,
     DetailsLink,
-    Card,
-    ImgCard,
-    TextCard,
+    Cards,
+    ImgCards,
+    TextCards,
     H2Text,
     H2Price,
     Form,

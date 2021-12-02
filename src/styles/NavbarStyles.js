@@ -11,6 +11,9 @@ const NavPage = styled.nav`
     justify-content: space-between;
     align-items: center;
     font-size: 0.9rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px 0 80px ;
     /* position: sticky; */
     top:0;
 `
@@ -33,6 +36,7 @@ const NavIcon = styled.div`
     background: url(${Logo}) 0 45% no-repeat;
     background-size: 100% 100%;
     cursor: pointer;
+
 `
 
 const NavMenu = styled.ul`
@@ -45,6 +49,12 @@ const NavMenu = styled.ul`
 const NavItem = styled.div`
     height: 80px;
     padding-bottom: 8px;
+
+`
+const NavItemTxt = styled.div`
+    padding-top: 10px;
+    padding-right:20px;
+    font-size: 25px
 `
 const NavLinks = styled(Link)`
     color: #fa4a0c;
@@ -66,7 +76,9 @@ const NavBtnLink = styled.div`
 `
 const NavShop = styled.div`
 padding-top:30px;
-font-size: 35px;  
+font-size: 35px; 
+
+ 
 `;
 
 export {
@@ -75,7 +87,8 @@ export {
     NavLogo,
     NavIcon,
     NavMenu,
-    NavItem, 
+    NavItem,
+    NavItemTxt, 
     NavLinks,
     NavShop,
     NavBtnLink,

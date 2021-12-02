@@ -1,47 +1,52 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import {
     NavPage,
     NavContainer,
     NavLogo,
     NavIcon,
     NavMenu,
-    NavItem, 
+    NavItem,
     NavLinks,
-    NavShop
+    NavShop,
+    NavItemTxt
 
 } from '../styles/NavbarStyles'
 
 export const Navbar = () => {
     const [click, setClick] = useState(false)
-   
-    
+
+
     const handleClick = () => setClick(!click)
     const closeMenu = () => setClick(false)
-    
+
 
 
     return (
         <>
-        <NavPage>
-            <NavContainer>
-                <NavLogo to='/home'>
-                    <NavIcon />
-                </NavLogo>
-                <NavMenu onClick={handleClick} click={click}>
-                    <NavItem>
+            <NavPage>
+                <NavContainer>
+                    <NavLogo to='/home'>
+                        <NavIcon />
+                    </NavLogo>
+                    <NavMenu onClick={handleClick} click={click}>
+                        <NavItemTxt>
+                            <NavLinks to='/login' onClick={closeMenu}>
+                                Login
+                            </NavLinks>
+                        </NavItemTxt>
                         <NavItem>
-                            
+
                             <NavLinks to='/cart' onClick={closeMenu} >
-                            <NavShop>
-                            <i className= "fa fa-shopping-cart" style={{color:'coral'}}></i>
-                            </NavShop>
+                                <NavShop>
+                                    <i className="fa fa-shopping-cart" style={{ color: 'coral' }}></i>
+                                </NavShop>
                             </NavLinks>
                         </NavItem>
-                    </NavItem>
-                </NavMenu>
-            </NavContainer>
-        </NavPage>
-            
+
+                    </NavMenu>
+                </NavContainer>
+            </NavPage>
+
         </>
     )
 }

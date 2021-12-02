@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { getProducts } from '../helpers/getProducts'
 import { NavCategory } from '../hooks/NavCategory'
-import {SearchProduct} from '../hooks/SearchProduct'
 
-import { Card, ContainerMain, DetailsLink, H2Price, H2Text, HeaderPage, ImgCard, MainPage, TextCard } from '../styles/HomeStyles'
+
+import { Cards, ContainerMain, DetailsLink, H2Price, H2Text, HeaderPage, ImgCards, MainPage, TextCards } from '../styles/HomeStyles'
+import { SearchScreen } from './SearchScreen'
 
 
 export const Home = () => {
@@ -32,21 +33,24 @@ export const Home = () => {
            <MainPage >
               
               <HeaderPage>
-                  Nothing like a Guajolota to start the day. 
+                  Nothing like   a <br/>Guajolota to<br/>  start the day 
               </HeaderPage>
-              <SearchProduct products={products} />
+
+             <ContainerMain> 
+              <SearchScreen setCategories={setCategories}/>
               <NavCategory products={products} setCategories={setCategories} />
-                <ContainerMain>
+                
+                
                     {
                        categories.map((art) =>(
-                        <DetailsLink to={`details/${art.id}`} key={art.id}>
-                        <Card>
-                            <ImgCard style={{backgroundImage: `url(${art.image})`}}/>
-                            <TextCard>
+                        <DetailsLink to={`/details/${art.id}`} key={art.id}>
+                        <Cards>
+                            <ImgCards style={{backgroundImage: `url(${art.image})`}}/>
+                            <TextCards>
                                 <H2Text>{art.name}</H2Text>
-                                <H2Price>{art.price} MXN</H2Price>
-                            </TextCard>
-                        </Card>
+                                <H2Price>${art.price} MXN</H2Price>
+                            </TextCards>
+                        </Cards>
                     </DetailsLink>
                        )) 
                     }

@@ -73,6 +73,9 @@ export const Details = () => {
 
 
     const flavorType = () => {
+        console.log(product.flavorType)
+        console.log(flavors)
+        console.log(product.flavorType != {} && flavors != '')
         if(product.flavorType && flavors){
             return product.flavorType === 'Tamale' ? printedFlavor(flavors.tamal):
                     product.flavorType === 'Drink' ? printedFlavor(flavors.drink):
@@ -86,7 +89,7 @@ export const Details = () => {
     }
     
     const comboType = () =>{
-        if(product.flavorType && products){
+        if(product.flavorType != {} && products != ''){
             return product.flavorType === 'Tamale' ? filteredCombo('Drinks'):
                     product.flavorType === 'Drink' ? filteredCombo('Guajolotas'):
                     console.error("It doesn't exist")
@@ -158,6 +161,7 @@ export const Details = () => {
             
             localStorage.setItem('Cart', JSON.stringify(cart))
     }
+
     return (
         <DetailsContainer>
         <>
@@ -181,7 +185,7 @@ export const Details = () => {
             </ComboMain>
 
              <Link to='/cart'>
-                <ButtonCart onClick={handleAddToCart}>Add {counter} To Cart</ButtonCart>
+                <ButtonCart onClick={handleAddToCart}>Add {counter} To Cart  ${counter*product.price} </ButtonCart>
             </Link> 
             
         </DetailsContainer>

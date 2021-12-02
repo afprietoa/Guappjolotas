@@ -6,10 +6,26 @@ const CartContainer = styled.div`
     align-items:center
 `
 const ItemCartContainer = styled.div`
-    margin: 10px 20px 15px 20px;
+    
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    height: 110px;
+    padding: 20px;
+    margin: 20px 20px 10px 20px;
+    border-radius: 20px;
+    justify-content: normal;
+    align-items: normal;
+    align-content:normal;
+    background-color: #e7e7e7;
+`
+const TxtCart = styled.div`
+    display: inline-block;
 `
 const ImgCart = styled.img`
+    height: 4.3rem;
     margin: auto;
 `
 const NameCart = styled.h4`
@@ -17,9 +33,6 @@ const NameCart = styled.h4`
     color: black;
 `
 const PriceCart = styled.h4`
-    color: #fa4a0c;
-`
-const QuantityCart = styled.h4`
     color: #fa4a0c;
 `
 const ButtonCtn = styled.div`
@@ -63,9 +76,9 @@ export{
     CartContainer,
     ItemCartContainer,
     ImgCart,
+    TxtCart,
     NameCart,
     PriceCart,
-    QuantityCart,
     ButtonCtn,
     ButtonCtnR,
     ButtonRemove,

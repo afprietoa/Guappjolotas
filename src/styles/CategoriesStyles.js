@@ -6,10 +6,13 @@ const ButtonCategory = styled.button`
     color: black;
     background-color: transparent;
     font-size: 1rem;
+    
 
     :hover{
         color: #fa4a0c;
         cursor: pointer;
+        text-underline-position: under;
+        text-decoration: underline;
     }
 `
 
