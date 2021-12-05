@@ -31,7 +31,7 @@ import {
 export const Details = () => {
 
     
-    
+    const [products, setProducts] = useState(null)
 
     const [flavors, setFlavors] = useState(null)
 
@@ -47,9 +47,9 @@ export const Details = () => {
 
    
     
-    const {counter,handleDecrement,handleIncrement } = CounterProduct()
-    const { checkedProduct, handleCheckOn, handleCheckOff } = ComboCheck()
-    const [products, setProducts] = useState(null)
+    const {counter,handleDecrement,handleIncrement } = CounterProduct();
+    const { checkedProduct, handleCheckOn, handleCheckOff } = ComboCheck();
+    
 
     useEffect(() => {
         const update = () =>{
@@ -59,7 +59,7 @@ export const Details = () => {
             })
             getFlavors()
             .then((data1) =>{
-                const arr =  data1.map((art,i) =>(art))
+                const arr =  data1.map((art) =>(art))
                 setFlavors(arr[0])
             })
             getProductId(id)
@@ -114,7 +114,7 @@ export const Details = () => {
                 </label>
 
             </ComboPrinter>
-        )))
+        )));
     }
     const cart = [] 
     const pack= []
@@ -167,7 +167,7 @@ export const Details = () => {
         <>
           <img src={product.image} alt={product.name}/>
           <h1>{product.name}</h1> 
-           <PriceDetail>${product.price} MXN</PriceDetail>
+           <PriceDetail>$ {product.price} MXN</PriceDetail>
            <ButtonContainer>
                <ButtonOp onClick={handleDecrement}>-</ButtonOp>
                <Cnt>{counter}</Cnt>
@@ -185,10 +185,10 @@ export const Details = () => {
             </ComboMain>
 
              <Link to='/cart'>
-                <ButtonCart onClick={handleAddToCart}>Add {counter} To Cart  ${counter*product.price} </ButtonCart>
+                <ButtonCart onClick={handleAddToCart}> Add {counter} To Cart  $ {counter * product.price} </ButtonCart>
             </Link> 
             
         </DetailsContainer>
-    )
-}
+    );
+};
     

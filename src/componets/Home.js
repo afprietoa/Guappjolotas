@@ -24,6 +24,7 @@ export const Home = () => {
     useEffect(() => {
         updateProducts()
     }, [])
+    
     console.log(categories)
     console.log(typeof(categories))
 
@@ -48,7 +49,7 @@ export const Home = () => {
                             <ImgCards style={{backgroundImage: `url(${art.image})`}}/>
                             <TextCards>
                                 <H2Text>{art.name}</H2Text>
-                                <H2Price>${art.price} MXN</H2Price>
+                                <H2Price>$ {art.price} MXN</H2Price>
                             </TextCards>
                         </Cards>
                     </DetailsLink>
