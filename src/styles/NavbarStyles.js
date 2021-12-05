@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from '../assets/icons/logo.png'
 
 
@@ -24,7 +24,7 @@ const NavContainer = styled.div`
     height: 80px;
     padding: 30px;
 `
-const NavLogo = styled(Link)`
+const NavLogo = styled(NavLink)`
     justify-self: flex-start;
     cursor: pointer;
     display: flex;
@@ -56,7 +56,7 @@ const NavItemTxt = styled.div`
     padding-right:20px;
     font-size: 25px
 `
-const NavLinks = styled(Link)`
+const NavLinks = styled(NavLink)`
     color: #fa4a0c;
     display: flex;
     align-items: center;

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import {Link} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 const MainPage = styled.div`
     width: 100%;
@@ -20,7 +20,7 @@ const ContainerMain = styled.div`
     margin: 20px 0px 200px 0px;
 `
 
-const DetailsLink = styled(Link)`
+const DetailsLink = styled(NavLink)`
     text-decoration: none;
 `
 
