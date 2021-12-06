@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 import { getProductId } from '../helpers/getProductId'
 import { getFlavors } from '../helpers/getFlavors'
