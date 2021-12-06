@@ -4,7 +4,7 @@ import { Form, Button, Card } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { login, loginEmailPassword, loginGoogle } from '../actions/loginAction';
+import { loginEmailPassword, loginGoogle } from '../actions/loginAction';
 import { useForm } from '../hooks/useForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

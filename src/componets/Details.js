@@ -75,7 +75,7 @@ const Details = () => {
     const flavorType = () => {
         console.log(product.flavorType)
         console.log(flavors)
-        console.log(product.flavorType != {} && flavors != '')
+        console.log(product.flavorType !== {} && flavors !== '')
         if(product.flavorType && flavors){
             return product.flavorType === 'Tamale' ? printedFlavor(flavors.tamal):
                     product.flavorType === 'Drink' ? printedFlavor(flavors.drink):
@@ -89,7 +89,7 @@ const Details = () => {
     }
     
     const comboType = () =>{
-        if(product.flavorType != {} && products != ''){
+        if(product.flavorType !== {} && products !== ''){
             return product.flavorType === 'Tamale' ? filteredCombo('Drinks'):
                     product.flavorType === 'Drink' ? filteredCombo('Guajolotas'):
                     console.error("It doesn't exist")

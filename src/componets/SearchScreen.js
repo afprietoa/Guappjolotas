@@ -4,7 +4,7 @@ import queryString from 'query-string'
 import { getProductName } from '../helpers/getProductName'
 
 import { Form, FormInput } from '../styles/HomeStyles'
-import { Card,  H2Price, H2Text, ImgCard, TextCard } from '../styles/HomeStyles'
+
 import { useForm } from '../hooks/useForm'
 
 export const SearchScreen = ({setCategories}) => {
@@ -30,7 +30,7 @@ export const SearchScreen = ({setCategories}) => {
         .then((product) =>{
                 setCategories(product)
             })
-    }, [q])
+    }, [q, setCategories])
 
     
 
