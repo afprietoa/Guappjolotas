@@ -19,13 +19,17 @@ export const AppRouter = () => {
             <Router>
             <Navbar />
                 <Routes>
+                <Route exact path="/Guappjolotas/" element={<Navigate to="/home" />}/>
+                <Route exact path="/" element={<Navigate to="/home" />}/>
                     <Route path="/home" element={<Home />}/>
+                    <Route path="/login" element={<Login />}/>
+                    <Route path="/signIn" element={<SignIn />}/>
                     <Route path="/details/:id" element={<Details />}/>
                     <Route path="/cart" element={<Cart />}/>
-                    <Route path="/signIn" element={<SignIn />}/>
-                    <Route path="/login" element={<Login />}/>
-                    <Route exact path="/*" element={<Navigate to="/home" />}/>
-                    <Route exact path="/Guappjolotas" element={<Navigate to="/home" />}/>
+                    
+                    
+                    
+                    
                 </Routes>
             </Router>
         </>
