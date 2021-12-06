@@ -15,7 +15,7 @@ import { SignIn } from '../componets/SignIn';
 
 export const AppRouter = () => {
     return (
-        <>
+        
             <Router>
             <Navbar />
                 <Routes>
@@ -32,6 +32,6 @@ export const AppRouter = () => {
                     
                 </Routes>
             </Router>
-        </>
-    )
-}
+        
+    );
+};
