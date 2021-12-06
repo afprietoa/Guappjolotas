@@ -4,16 +4,16 @@ import {BrowserRouter as Router,
     Route,
     Navigate} 
     from 'react-router-dom';
-import { Cart } from '../componets/Cart';
-import { Details } from '../componets/Details';
-import { Home } from '../componets/Home';
-import { Login } from '../componets/Login';
-import { Navbar } from '../componets/Navbar';
-import { SignIn } from '../componets/SignIn';
+import  Cart  from '../componets/Cart';
+import  Details  from '../componets/Details';
+import  Home  from '../componets/Home';
+import  Login  from '../componets/Login';
+import  Navbar  from '../componets/Navbar';
+import  SignIn  from '../componets/SignIn';
 
 
 
-export const AppRouter = () => {
+function AppRouter (){
     return (
         
             <Router>
@@ -35,3 +35,4 @@ export const AppRouter = () => {
         
     );
 };
+export default AppRouter;

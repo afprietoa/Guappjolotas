@@ -6,7 +6,7 @@ import { ButtonRemove, CartContainer, ImgCart, ItemCartContainer, NameCart, Pric
 import { ButtonCtn, ButtonPurchase } from '../styles/CartStyle'
 // import { loadStripe } from "@stripe/stripe-js";
 
-export const Cart = () => {
+const Cart = () => {
 
    const [cart, setCart] = useState([])
     
@@ -72,3 +72,5 @@ export const Cart = () => {
         </div>
     )
 }
+
+export default Cart

@@ -12,7 +12,7 @@ import {
 
 } from '../styles/NavbarStyles'
 
-export const Navbar = () => {
+const Navbar = () => {
     const [click, setClick] = useState(false)
 
 
@@ -22,7 +22,7 @@ export const Navbar = () => {
 
 
     return (
-        <>
+        
             <NavPage>
                 <NavContainer>
                     <NavLogo to='/home'>
@@ -47,6 +47,7 @@ export const Navbar = () => {
                 </NavContainer>
             </NavPage>
 
-        </>
+        
     )
 }
+export default Navbar

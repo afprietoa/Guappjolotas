@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { AppRouter } from './routers/AppRouter';
+
 import './styles/style.css'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import { Provider } from 'react-redux';
 import { store } from './store/store';
+import AppRouter from './routers/AppRouter';
 
 
 // Una vez se tiene la configuración lista y el store creado, 

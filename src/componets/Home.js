@@ -7,7 +7,7 @@ import { Cards, ContainerMain, DetailsLink, H2Price, H2Text, HeaderPage, ImgCard
 import { SearchScreen } from './SearchScreen'
 
 
-export const Home = () => {
+const Home = () => {
 
     const [products, setProducts] = useState([])
     const [categories, setCategories] = useState([])
@@ -61,3 +61,4 @@ export const Home = () => {
         </>
     )
 }
+export default Home

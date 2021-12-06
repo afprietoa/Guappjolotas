@@ -28,7 +28,7 @@ import {
 } from '../styles/DetailsStyles'
 
 
-export const Details = () => {
+const Details = () => {
 
     
     const [products, setProducts] = useState(null)
@@ -192,3 +192,4 @@ export const Details = () => {
     );
 };
     
+export default Details

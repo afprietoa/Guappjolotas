@@ -8,7 +8,7 @@ import { login, loginEmailPassword, loginGoogle } from '../actions/loginAction';
 import { useForm } from '../hooks/useForm';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export const Login = () => {
+const Login = () => {
 
     const dispatch = useDispatch()
     //luego de hacer lo de abajo se hace useDispatch para lanzar la accion de login
@@ -90,3 +90,4 @@ export const Login = () => {
         </div>
     )
 }
+export default Login

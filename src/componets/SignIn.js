@@ -6,7 +6,7 @@ import { useDispatch } from 'react-redux';
 import { registerEmailPassword } from '../actions/registerAction';
 import { useForm } from '../hooks/useForm';
 
-export const SignIn = () => {
+const SignIn = () => {
 
     const dispatch = useDispatch()
 
@@ -96,3 +96,4 @@ export const SignIn = () => {
         </div >
     )
 }
+export default SignIn
